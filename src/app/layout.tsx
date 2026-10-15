@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import RecoilProvider from '@/components/providers/RecoilProvider'
 import AuthProvider from '@/components/auth/AuthProvider'
+import { FloatingChatWidget } from '@/components/widget'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <RecoilProvider>
           <AuthProvider>
             {children}
+            <FloatingChatWidget />
           </AuthProvider>
         </RecoilProvider>
       </body>

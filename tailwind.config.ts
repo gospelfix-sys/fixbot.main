@@ -65,6 +65,12 @@ const config: Config = {
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
       },
+      data: {
+        open: 'open',
+        closed: 'closed',
+        'starting-style': 'starting-style',
+        'ending-style': 'ending-style',
+      },
     },
   },
   plugins: [require('tailwindcss-animate')],
