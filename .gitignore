@@ -153,3 +153,6 @@ vite.config.ts.timestamp-*
 
 # Serena MCP local cache/memory
 .serena/
+
+# Shrimp Task Manager 로컬 작업 데이터
+.shrimp_data/
